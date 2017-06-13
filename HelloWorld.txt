@@ -1,1 +1,1 @@
-This is Hello World Before setting Git -- added while file is in staging
+This is Hello World Before setting Git -- added while file is in staging -- After Initial commit!
