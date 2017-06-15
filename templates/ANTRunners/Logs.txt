@@ -1,0 +1,753 @@
+[provar:run] Found callable test case.  Path: C:\Users\rahul.r.singh\Provar\SFTestsWorkspace\SFServicesTests\tests\POC_GITANT\CaseSubCase\UIAlertInteraction.testcase, Test Case Registry Id: 5f317462-316a-404e-b311-180420b851b0
+[provar:run] Found callable test case.  Path: C:\Users\rahul.r.singh\Provar\SFTestsWorkspace\SFServicesTests\tests\POC_GITANT\SearchAccountContactCase.testcase, Test Case Registry Id: 45a4e08d-f1f2-41df-be71-fbde09b975ef
+[provar:run] Found callable test case.  Path: C:\Users\rahul.r.singh\Provar\SFTestsWorkspace\SFServicesTests\tests\Practice\ProvarDemoSite2905.testcase, Test Case Registry Id: b52aba52-0ef2-40bb-a75b-6e1b90334fd4
+[provar:run] Found callable test case.  Path: C:\Users\rahul.r.singh\Provar\SFTestsWorkspace\SFServicesTests\tests\Practice\TestCallablePractice.testcase, Test Case Registry Id: f15aeffb-417f-4385-86ac-d367b08502f7
+[provar:run] Running Test Case.                      InteractionLog\CreateAndVerify.testcase
+[provar:run] Test Output OFF: Salesforce connection opened successfully.  Connection name: ServiceUser, ResultName: ServiceUser, resultScope: Test
+[provar:run] Test Output WARNING: Failed to connect to Master Lock Manager - assuming dead.  Host: localhost, port: 63456, cause: Connection refused: no further information
+[provar:run] Progress: Loading Salesforce metadata index: Loading Salesforce metadata index from disk
+[provar:run] Progress: Loading Salesforce metadata index
+[provar:run] Progress: Loading Connection model ... done
+[provar:run] Progress: Loading Connection model: Loading Salesforce model index from disk
+[provar:run] Progress: Loading Connection model
+[provar:run] Test Output OFF: Timed sleep successful.  Requested duration(seconds): 3, Actual duration(seconds): 3
+[provar:run] Progress: Getting the Contact Object: Getting Object metadata
+[provar:run] Progress: Getting the Contact Object
+[provar:run] Progress: Describing Salesforce Objects
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywaEAA, attempt 1 of 50, User Profile: Service Manager
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywaEAA, attempt 2 of 50, User Profile: Service Manager
+[provar:run] Progress: Salesforce metadata request has completed.  Request Id: 09Sn0000001kywaEAA, elapsed: 4.852, User Profile: Service Manager
+[provar:run] Progress: Describing Salesforce Objects
+[provar:run] Test Output SEVERE: The metadata file was not found.  Type: Profile, Name: Service Manager, File: C:\Temp\runtime-Test-Provar\.provarCaches\00Dn000000093YuEAI\profiles\Service Manager [09Sn0000001kywQEAQ].profile
+[provar:run] Test Output SEVERE: Error getting Screen Mapping definition.  Target: sf:ui:target?object=Contact&action=View, cause: Failed to find Salesforce Layout for the requested Record Type (this is usually because the user is not permissioned for the Record Type).  Record Type: null
+[provar:run] Test Output SEVERE: Error getting Screen Mapping definition.  Target: sf:ui:target?object=Contact&action=View, cause: Failed to find Salesforce Layout for the requested Record Type (this is usually because the user is not permissioned for the Record Type).  Record Type: null
+[provar:run] Test Output SEVERE: Failed to resolve UI Control.
+[provar:run] Test Output SEVERE: One or more Sub-Test Steps failed.
+[provar:run] Test Output SEVERE: Error opening Salesforce UI Connection.  Connection Name: ServiceUser, cause: [EmptyStackException
+[provar:run] Stack Trace:
+[provar:run] java.util.EmptyStackException
+[provar:run]    at java.util.Stack.peek(Stack.java:102)
+[provar:run]    at java.util.Stack.pop(Stack.java:84)
+[provar:run]    at com.provar.core.testapi.ProvarSeleniumDriver.closePageContext(ProvarSeleniumDriver.java:3418)
+[provar:run]    at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenClose(SfUiHandler.java:2126)
+[provar:run]    at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:326)
+[provar:run]    at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run]    at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run]    at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run]    at com.provar.plugins.forcedotcom.core.ui.UiWithScreen.execute(UiWithScreen.java:247)
+[provar:run]    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[provar:run]    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[provar:run]    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run]    at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run]    at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run]    at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run]    at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run]    at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] ]
+[provar:run] Plugin Output SEVERE: java.util.EmptyStackException
+[provar:run] Plugin Output SEVERE:      at java.util.Stack.peek(Stack.java:102)
+[provar:run] Plugin Output SEVERE:      at java.util.Stack.pop(Stack.java:84)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testapi.ProvarSeleniumDriver.closePageContext(ProvarSeleniumDriver.java:3418)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenClose(SfUiHandler.java:2126)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:326)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.UiWithScreen.execute(UiWithScreen.java:247)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywfEAA, attempt 1 of 50, Object: Case
+[provar:run] Progress: Getting the Case Object
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywfEAA, attempt 2 of 50, Object: Case
+[provar:run] Progress: Getting the Case Object
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywfEAA, attempt 3 of 50, Object: Case
+[provar:run] Progress: Getting the Case Object
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywfEAA, attempt 4 of 50, Object: Case
+[provar:run] Progress: Getting the Case Object
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywfEAA, attempt 5 of 50, Object: Case
+[provar:run] Progress: Getting the Case Object
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywfEAA, attempt 6 of 50, Object: Case
+[provar:run] Progress: Salesforce metadata request has completed.  Request Id: 09Sn0000001kywfEAA, elapsed: 27.953, Object: Case
+[provar:run] Progress: Getting the Case Object
+[provar:run] Progress: Describing Salesforce Objects
+[provar:run] Test Output SEVERE: Error getting Screen Mapping definition.  Target: sf:ui:target?object=Case&action=New&recordType=Case, cause: Failed to find Salesforce Layout for the requested Record Type (this is usually because the user is not permissioned for the Record Type).  Record Type: Case
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Unable to resolve the target: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to resolve control locator.  locator: ui:locator?name=Type&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DCase%26field%3DType
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Unable to resolve the target: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to resolve control locator.  locator: ui:locator?name=Status&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DCase%26field%3DStatus
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Unable to resolve the target: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to resolve control locator.  locator: ui:locator?name=Priority&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DCase%26field%3DPriority
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Unable to resolve the target: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to resolve control locator.  locator: ui:locator?name=Customer_Temperature__c&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DCase%26field%3DCustomer_Temperature__c
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Unable to resolve the target: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to resolve control locator.  locator: ui:locator?name=Customer_requested_start_date_time__c&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DCase%26field%3DCustomer_requested_start_date_time__c
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Unable to resolve the target: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to resolve control locator.  locator: ui:locator?name=Subject&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DCase%26field%3DSubject
+
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Unable to resolve the target: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to resolve control locator.  locator: ui:locator?name=Description&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DCase%26field%3DDescription
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Unable to resolve the target: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to resolve control locator.  locator: ui:locator?name=Comments&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DCase%26field%3DComments
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Unable to resolve the target: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Unable to resolve the target: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to resolve UI Control.
+[provar:run] Test Output SEVERE: One or more Sub-Test Steps failed.
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Plugin Output SEVERE: com.provar.plugins.forcedotcom.core.model.SfConnectionModelException: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.addLayoutToRecordType(SfRecordType.java:476)
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType$4.run(SfRecordType.java:411)
+[provar:run] Test Output SEVERE: Error opening Salesforce UI Connection.  Connection Name: ServiceUser, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$6.run(ExecutionServiceImpl.java:489)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.execJob(ExecutionServiceImpl.java:509)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.loadLayouts(SfRecordType.java:373)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.loadLayoutsIfNecessary(SfRecordType.java:354)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.access$0(SfRecordType.java:336)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType$3.run(SfRecordType.java:243)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$1.run(ExecutionServiceImpl.java:195)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:217)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:175)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.getLayoutType(SfRecordType.java:240)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject$2.run(SfObject.java:1541)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject$2.run(SfObject.java:1)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$4.run(ExecutionServiceImpl.java:360)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:379)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:227)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject.getProfileLayout(SfObject.java:1500)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.support.ApexSupport.getUiScreenMappingForTargetLocator(ApexSupport.java:1730)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenOpenObject(SfUiHandler.java:838)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenOpen(SfUiHandler.java:371)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:322)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.UiWithScreen.execute(UiWithScreen.java:261)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] Test Output OFF: Timed sleep successful.  Requested duration(seconds): 20, Actual duration(seconds): 20
+[provar:run] Test Output SEVERE: Error doing interaction.  Connection Name: ServiceUser, cause: [NoSuchElementException: No elements matched the field locator.  Field name: BackToCase
+[provar:run] For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+[provar:run] Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+[provar:run] System info: host: 'KLT-IN-RSINGH', ip: '10.131.68.63', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+[provar:run] Driver info: driver.version: ProvarSeleniumDriver]
+[provar:run] Plugin Output SEVERE: org.openqa.selenium.NoSuchElementException: No elements matched the field locator.  Field name: BackToCase
+[provar:run] Plugin Output SEVERE: For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+[provar:run] Plugin Output SEVERE: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+[provar:run] Plugin Output SEVERE: System info: host: 'KLT-IN-RSINGH', ip: '10.131.68.63', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+[provar:run] Plugin Output SEVERE: Driver info: driver.version: ProvarSeleniumDriver
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.ProvarFindByElementLocator.findElement(ProvarFindByElementLocator.java:90)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+[provar:run] Plugin Output SEVERE:      at com.sun.proxy.$Proxy75.getWrappedElement(Unknown Source)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Iterators$8.transform(Iterators.java:817)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Iterators.addAll(Iterators.java:365)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Lists.newArrayList(Lists.java:162)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Lists.newArrayList(Lists.java:146)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:572)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testapi.ProvarSeleniumDriver.getAttributes(ProvarSeleniumDriver.java:1884)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.getWebElementAttributes(SeleniumUiHandler.java:2676)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performActionInteraction(SeleniumUiHandler.java:3089)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performInteraction(SeleniumUiHandler.java:1815)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performInteraction(SfUiHandler.java:2790)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performInteraction(SeleniumUiHandler.java:1690)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performInteraction(SfUiHandler.java:2757)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:350)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.UiDoAction.execute(UiDoAction.java:144)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] Test Output SEVERE: One or more Sub-Test Steps failed.
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Unable to resolve the target: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Plugin Output SEVERE: java.lang.NullPointerException
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error performing Ui Assert.  Connection Name: ServiceUser, cause: [NullPointerException
+[provar:run] Stack Trace:
+[provar:run] java.lang.NullPointerException
+[provar:run]    at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.switchFrameBasedOnLocatorResolution(SeleniumUiHandler.java:5792)
+[provar:run]    at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.getAttributesForLocatorInLegacy(SeleniumUiHandler.java:5394)
+[provar:run]    at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.assertFieldAttributes(SeleniumUiHandler.java:5361)
+[provar:run]    at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performAssert(SeleniumUiHandler.java:5165)
+[provar:run]    at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:342)
+[provar:run]    at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run]    at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run]    at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run]    at com.provar.plugins.forcedotcom.core.ui.UiAssert.execute(UiAssert.java:169)
+[provar:run]    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[provar:run]    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[provar:run]    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run]    at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run]    at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run]    at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run]    at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run]    at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] ]
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.switchFrameBasedOnLocatorResolution(SeleniumUiHandler.java:5792)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.getAttributesForLocatorInLegacy(SeleniumUiHandler.java:5394)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.assertFieldAttributes(SeleniumUiHandler.java:5361)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performAssert(SeleniumUiHandler.java:5165)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:342)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.UiAssert.execute(UiAssert.java:169)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] Test Output SEVERE: One or more Sub-Test Steps failed.
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error opening Salesforce UI Connection.  Connection Name: ServiceUser, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Plugin Output SEVERE: com.provar.plugins.forcedotcom.core.model.SfConnectionModelException: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.addLayoutToRecordType(SfRecordType.java:476)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType$4.run(SfRecordType.java:411)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$6.run(ExecutionServiceImpl.java:489)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.execJob(ExecutionServiceImpl.java:509)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.loadLayouts(SfRecordType.java:373)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.loadLayoutsIfNecessary(SfRecordType.java:354)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.access$0(SfRecordType.java:336)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType$3.run(SfRecordType.java:243)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$1.run(ExecutionServiceImpl.java:195)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:217)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:175)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.getLayoutType(SfRecordType.java:240)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject$2.run(SfObject.java:1541)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject$2.run(SfObject.java:1)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$4.run(ExecutionServiceImpl.java:360)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:379)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:227)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject.getProfileLayout(SfObject.java:1500)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.support.ApexSupport.getUiScreenMappingForTargetLocator(ApexSupport.java:1730)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenOpenObject(SfUiHandler.java:838)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenOpen(SfUiHandler.java:371)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:322)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.UiWithScreen.execute(UiWithScreen.java:261)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] Test Output OFF: Loaded 2 rows from Parameter Value Source.
+[provar:run] Adding new execution item.  id: root:InteractionLog:CreateAndVerify.testcase:144:145:161:162.0, parent id: root:InteractionLog:CreateAndVerify.testcase:144:145:161
+[provar:run] Test Output OFF: Updated data in excel sheet: Sheet1
+[provar:run] Test Output SEVERE: The row locator did not match any rows.
+[provar:run] Test Output SEVERE: One or more Sub-Test Steps failed.
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Unable to resolve the target: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to resolve UI Control.
+[provar:run] Test Output SEVERE: One or more Sub-Test Steps failed.
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error opening Salesforce UI Connection.  Connection Name: ServiceUser, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Plugin Output SEVERE: com.provar.plugins.forcedotcom.core.model.SfConnectionModelException: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.addLayoutToRecordType(SfRecordType.java:476)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType$4.run(SfRecordType.java:411)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$6.run(ExecutionServiceImpl.java:489)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.execJob(ExecutionServiceImpl.java:509)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.loadLayouts(SfRecordType.java:373)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.loadLayoutsIfNecessary(SfRecordType.java:354)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.access$0(SfRecordType.java:336)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType$3.run(SfRecordType.java:243)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$1.run(ExecutionServiceImpl.java:195)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:217)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:175)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.getLayoutType(SfRecordType.java:240)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject$2.run(SfObject.java:1541)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject$2.run(SfObject.java:1)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$4.run(ExecutionServiceImpl.java:360)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:379)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:227)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject.getProfileLayout(SfObject.java:1500)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.support.ApexSupport.getUiScreenMappingForTargetLocator(ApexSupport.java:1730)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenOpenObject(SfUiHandler.java:838)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenOpen(SfUiHandler.java:371)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:322)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.UiWithScreen.execute(UiWithScreen.java:261)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywpEAA, attempt 1 of 50, Object: Interaction__c
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywpEAA, attempt 2 of 50, Object: Interaction__c
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywpEAA, attempt 3 of 50, Object: Interaction__c
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywpEAA, attempt 4 of 50, Object: Interaction__c
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywpEAA, attempt 5 of 50, Object: Interaction__c
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywpEAA, attempt 6 of 50, Object: Interaction__c
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywpEAA, attempt 7 of 50, Object: Interaction__c
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywpEAA, attempt 8 of 50, Object: Interaction__c
+[provar:run] Progress: Waiting for Salesforce metadata.  Request Id: 09Sn0000001kywpEAA, attempt 9 of 50, Object: Interaction__c
+[provar:run] Progress: Salesforce metadata request has completed.  Request Id: 09Sn0000001kywpEAA, elapsed: 45.138, Object: Interaction__c
+[provar:run] Progress: Describing Salesforce Objects
+[provar:run] Test Output SEVERE: Field not found on the screen.  Locator: com.provar.plugins.forcedotcom.core.ui.ProvarElementLocator@6bdd61ee
+[provar:run] Test Output SEVERE: Failed to click the Today link.  Reason: The button was not found on the screen, Selenium locator: null
+[provar:run] Test Output SEVERE: Error doing interaction.  Connection Name: ServiceUser, cause: [NoSuchElementException: No elements matched the field locator.  Field name: ManualTimeCheckbox
+[provar:run] For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+[provar:run] Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+[provar:run] System info: host: 'KLT-IN-RSINGH', ip: '10.131.68.63', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+[provar:run] Driver info: driver.version: ProvarSeleniumDriver]
+[provar:run] Plugin Output SEVERE: org.openqa.selenium.NoSuchElementException: No elements matched the field locator.  Field name: ManualTimeCheckbox
+[provar:run] Plugin Output SEVERE: For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+[provar:run] Plugin Output SEVERE: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+[provar:run] Plugin Output SEVERE: System info: host: 'KLT-IN-RSINGH', ip: '10.131.68.63', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+[provar:run] Plugin Output SEVERE: Driver info: driver.version: ProvarSeleniumDriver
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.ProvarFindByElementLocator.findElement(ProvarFindByElementLocator.java:90)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+[provar:run] Plugin Output SEVERE:      at com.sun.proxy.$Proxy75.getWrappedElement(Unknown Source)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Iterators$8.transform(Iterators.java:817)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Iterators.addAll(Iterators.java:365)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Lists.newArrayList(Lists.java:162)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Lists.newArrayList(Lists.java:146)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:572)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testapi.ProvarSeleniumDriver.getAttributes(ProvarSeleniumDriver.java:1884)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.getWebElementAttributes(SeleniumUiHandler.java:2676)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performCheckToggleInteraction(SeleniumUiHandler.java:2917)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performInteraction(SeleniumUiHandler.java:1806)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performInteraction(SfUiHandler.java:2790)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performInteraction(SeleniumUiHandler.java:1690)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performInteraction(SfUiHandler.java:2757)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:350)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.UiDoAction.execute(UiDoAction.java:144)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] Test Output SEVERE: Field not found on the screen.  Locator: ProvarFindByElementLocator [by=public org.openqa.selenium.WebElement pageobjects.InteractionEdit.ManualTimehrField]
+[provar:run] Test Output SEVERE: Field not found on the screen.  Locator: ProvarFindByElementLocator [by=public org.openqa.selenium.WebElement pageobjects.InteractionEdit.ManualMinutesTime]
+[provar:run] Test Output SEVERE: Field not found on the screen.  Locator: com.provar.plugins.forcedotcom.core.ui.ProvarElementLocator@1a92db63
+[provar:run] Test Output SEVERE: Field not found on the screen.  Locator: com.provar.plugins.forcedotcom.core.ui.ProvarElementLocator@5bd31479
+[provar:run] Test Output SEVERE: Error doing interaction.  Connection Name: ServiceUser, cause: [NoSuchElementException: No elements matched the field locator.  Field name: btnSave
+[provar:run] For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+[provar:run] Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+[provar:run] System info: host: 'KLT-IN-RSINGH', ip: '10.131.68.63', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+[provar:run] Driver info: driver.version: ProvarSeleniumDriver]
+[provar:run] Plugin Output SEVERE: org.openqa.selenium.NoSuchElementException: No elements matched the field locator.  Field name: btnSave
+[provar:run] Plugin Output SEVERE: For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+[provar:run] Plugin Output SEVERE: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+[provar:run] Plugin Output SEVERE: System info: host: 'KLT-IN-RSINGH', ip: '10.131.68.63', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+[provar:run] Plugin Output SEVERE: Driver info: driver.version: ProvarSeleniumDriver
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.ProvarFindByElementLocator.findElement(ProvarFindByElementLocator.java:90)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+[provar:run] Plugin Output SEVERE:      at com.sun.proxy.$Proxy75.getWrappedElement(Unknown Source)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Iterators$8.transform(Iterators.java:817)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Iterators.addAll(Iterators.java:365)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Lists.newArrayList(Lists.java:162)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Lists.newArrayList(Lists.java:146)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:572)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testapi.ProvarSeleniumDriver.getAttributes(ProvarSeleniumDriver.java:1884)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.getWebElementAttributes(SeleniumUiHandler.java:2676)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performActionInteraction(SeleniumUiHandler.java:3089)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performInteraction(SeleniumUiHandler.java:1815)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performInteraction(SfUiHandler.java:2790)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performInteraction(SeleniumUiHandler.java:1690)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performInteraction(SfUiHandler.java:2757)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:350)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.UiDoAction.execute(UiDoAction.java:144)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] Test Output SEVERE: One or more Sub-Test Steps failed.
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output OFF: Timed sleep successful.  Requested duration(seconds): 5, Actual duration(seconds): 5
+[provar:run] Test Output SEVERE: Error opening Salesforce UI Connection.  Connection Name: ServiceUser, cause: [NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@title='CaseInteractionsReadAll' or contains(@src, 'apex/CaseInteractionsReadAll') or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall') or contains(@src, 'apex/CaseInteractionsReadAll')or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall')]"}
+[provar:run]   (Session info: chrome=56.0.2924.76)
+[provar:run]   (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+[provar:run] Command duration or timeout: 24 milliseconds
+[provar:run] For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+[provar:run] Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+[provar:run] System info: host: 'KLT-IN-RSINGH', ip: '10.131.68.63', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+[provar:run] Driver info: org.openqa.selenium.chrome.ChromeDriver
+[provar:run] Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Temp\runtime-Test-Provar\.provarCaches\.chromeProfiles\profile0}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.76, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+[provar:run] Session ID: 2dae73c670d060886a5f99f0837774dd
+[provar:run] *** Element info: {Using=xpath, value=//iframe[@title='CaseInteractionsReadAll' or contains(@src, 'apex/CaseInteractionsReadAll') or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall') or contains(@src, 'apex/CaseInteractionsReadAll')or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall')]}]
+[provar:run] Plugin Output SEVERE: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@title='CaseInteractionsReadAll' or contains(@src, 'apex/CaseInteractionsReadAll') or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall') or contains(@src, 'apex/CaseInteractionsReadAll')or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall')]"}
+[provar:run] Plugin Output SEVERE:   (Session info: chrome=56.0.2924.76)
+[provar:run] Plugin Output SEVERE:   (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+[provar:run] Plugin Output SEVERE: Command duration or timeout: 24 milliseconds
+[provar:run] Plugin Output SEVERE: For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+[provar:run] Plugin Output SEVERE: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+[provar:run] Plugin Output SEVERE: System info: host: 'KLT-IN-RSINGH', ip: '10.131.68.63', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+[provar:run] Plugin Output SEVERE: Driver info: org.openqa.selenium.chrome.ChromeDriver
+[provar:run] Plugin Output SEVERE: Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Temp\runtime-Test-Provar\.provarCaches\.chromeProfiles\profile0}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.76, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+[provar:run] Plugin Output SEVERE: Session ID: 2dae73c670d060886a5f99f0837774dd
+[provar:run] Plugin Output SEVERE: *** Element info: {Using=xpath, value=//iframe[@title='CaseInteractionsReadAll' or contains(@src, 'apex/CaseInteractionsReadAll') or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall') or contains(@src, 'apex/CaseInteractionsReadAll')or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall')]}
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenOpenPageObject(SfUiHandler.java:680)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenOpen(SfUiHandler.java:341)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:322)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.UiWithScreen.execute(UiWithScreen.java:261)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] Test Output OFF: Timed sleep successful.  Requested duration(seconds): 5, Actual duration(seconds): 5
+[provar:run] Test Output SEVERE: The On Screen has Navigate set to Embedded Frame, but there is no enclosing On Screen.
+[provar:run] Test Output SEVERE: The On Screen has Navigate set to Embedded Frame, but there is no enclosing On Screen.
+[provar:run] Test Output SEVERE: The row locator did not match any rows.
+[provar:run] Test Output SEVERE: One or more Sub-Test Steps failed.
+[provar:run] Test Output SEVERE: One or more Sub-Test Steps failed.
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error opening Salesforce UI Connection.  Connection Name: ServiceUser, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Plugin Output SEVERE: com.provar.plugins.forcedotcom.core.model.SfConnectionModelException: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.addLayoutToRecordType(SfRecordType.java:476)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType$4.run(SfRecordType.java:411)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$6.run(ExecutionServiceImpl.java:489)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.execJob(ExecutionServiceImpl.java:509)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.loadLayouts(SfRecordType.java:373)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.loadLayoutsIfNecessary(SfRecordType.java:354)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.access$0(SfRecordType.java:336)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType$3.run(SfRecordType.java:243)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$1.run(ExecutionServiceImpl.java:195)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:217)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:175)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.getLayoutType(SfRecordType.java:240)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject$2.run(SfObject.java:1541)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject$2.run(SfObject.java:1)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$4.run(ExecutionServiceImpl.java:360)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:379)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:227)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject.getProfileLayout(SfObject.java:1500)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.support.ApexSupport.getUiScreenMappingForTargetLocator(ApexSupport.java:1730)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenOpenObject(SfUiHandler.java:838)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenOpen(SfUiHandler.java:371)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:322)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.UiWithScreen.execute(UiWithScreen.java:261)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] Test Output SEVERE: {ASSERTION_FAILED}Assertion Failed.null EqualTo Test Auto Interaction Log for TC : SVC0501
+[provar:run] Test Output SEVERE: {ASSERTION_FAILED}Assertion Failed.null EqualTo Test Auto Internal Log for TC : SVC0501
+[provar:run] Test Output WARNING: Object read successfully, but not saved.  Result Name: null
+[provar:run] Test Output SEVERE: One or more Sub-Test Steps failed.
+[provar:run] Adding new execution item.  id: root:InteractionLog:CreateAndVerify.testcase:144:145:161:162.1, parent id: root:InteractionLog:CreateAndVerify.testcase:144:145:161
+[provar:run] Test Output OFF: Updated data in excel sheet: Sheet1
+[provar:run] Test Output SEVERE: The row locator did not match any rows.
+[provar:run] Test Output SEVERE: One or more Sub-Test Steps failed.
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Unable to resolve the target: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to resolve UI Control.
+[provar:run] Test Output SEVERE: One or more Sub-Test Steps failed.
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Plugin Output SEVERE: com.provar.plugins.forcedotcom.core.model.SfConnectionModelException: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.addLayoutToRecordType(SfRecordType.java:476)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType$4.run(SfRecordType.java:411)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$6.run(ExecutionServiceImpl.java:489)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.execJob(ExecutionServiceImpl.java:509)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.loadLayouts(SfRecordType.java:373)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.loadLayoutsIfNecessary(SfRecordType.java:354)
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error opening Salesforce UI Connection.  Connection Name: ServiceUser, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.access$0(SfRecordType.java:336)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType$3.run(SfRecordType.java:243)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$1.run(ExecutionServiceImpl.java:195)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:217)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:175)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfRecordType.getLayoutType(SfRecordType.java:240)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject$2.run(SfObject.java:1541)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject$2.run(SfObject.java:1)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl$4.run(ExecutionServiceImpl.java:360)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:379)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:227)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.model.SfObject.getProfileLayout(SfObject.java:1500)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.support.ApexSupport.getUiScreenMappingForTargetLocator(ApexSupport.java:1730)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenOpenObject(SfUiHandler.java:838)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenOpen(SfUiHandler.java:371)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:322)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.UiWithScreen.execute(UiWithScreen.java:261)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] Test Output SEVERE: Field not found on the screen.  Locator: com.provar.plugins.forcedotcom.core.ui.ProvarElementLocator@382384e8
+[provar:run] Test Output SEVERE: Failed to click the Today link.  Reason: The button was not found on the screen, Selenium locator: null
+[provar:run] Test Output SEVERE: Field not found on the screen.  Locator: com.provar.plugins.forcedotcom.core.ui.ProvarElementLocator@6c86704e
+[provar:run] Test Output SEVERE: Field not found on the screen.  Locator: com.provar.plugins.forcedotcom.core.ui.ProvarElementLocator@52b7544f
+[provar:run] Test Output SEVERE: Error doing interaction.  Connection Name: ServiceUser, cause: [NoSuchElementException: No elements matched the field locator.  Field name: btnSave
+[provar:run] For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+[provar:run] Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+[provar:run] System info: host: 'KLT-IN-RSINGH', ip: '10.131.68.63', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+[provar:run] Driver info: driver.version: ProvarSeleniumDriver]
+[provar:run] Plugin Output SEVERE: org.openqa.selenium.NoSuchElementException: No elements matched the field locator.  Field name: btnSave
+[provar:run] Plugin Output SEVERE: For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+[provar:run] Plugin Output SEVERE: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+[provar:run] Plugin Output SEVERE: System info: host: 'KLT-IN-RSINGH', ip: '10.131.68.63', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+[provar:run] Plugin Output SEVERE: Driver info: driver.version: ProvarSeleniumDriver
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.ProvarFindByElementLocator.findElement(ProvarFindByElementLocator.java:90)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+[provar:run] Plugin Output SEVERE:      at com.sun.proxy.$Proxy75.getWrappedElement(Unknown Source)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Iterators$8.transform(Iterators.java:817)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Iterators.addAll(Iterators.java:365)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Lists.newArrayList(Lists.java:162)
+[provar:run] Plugin Output SEVERE:      at com.google.common.collect.Lists.newArrayList(Lists.java:146)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:572)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testapi.ProvarSeleniumDriver.getAttributes(ProvarSeleniumDriver.java:1884)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.getWebElementAttributes(SeleniumUiHandler.java:2676)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performActionInteraction(SeleniumUiHandler.java:3089)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performInteraction(SeleniumUiHandler.java:1815)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performInteraction(SfUiHandler.java:2790)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performInteraction(SeleniumUiHandler.java:1690)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performInteraction(SfUiHandler.java:2757)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:350)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.UiDoAction.execute(UiDoAction.java:144)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] Test Output SEVERE: One or more Sub-Test Steps failed.
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output SEVERE: Error getting Object definition.  Object: Case, cause: Failed to load Salesforce layouts for the Case record type on the Case object - Failed to find layout assignment for record type.  Record Type: Case, layout name: null
+[provar:run] Test Output OFF: Timed sleep successful.  Requested duration(seconds): 5, Actual duration(seconds): 5
+[provar:run] Plugin Output SEVERE: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@title='CaseInteractionsReadAll' or contains(@src, 'apex/CaseInteractionsReadAll') or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall') or contains(@src, 'apex/CaseInteractionsReadAll')or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall')]"}
+[provar:run] Plugin Output SEVERE:   (Session info: chrome=56.0.2924.76)
+[provar:run] Test Output SEVERE: Error opening Salesforce UI Connection.  Connection Name: ServiceUser, cause: [NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@title='CaseInteractionsReadAll' or contains(@src, 'apex/CaseInteractionsReadAll') or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall') or contains(@src, 'apex/CaseInteractionsReadAll')or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall')]"}
+[provar:run]   (Session info: chrome=56.0.2924.76)
+[provar:run]   (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+[provar:run] Command duration or timeout: 21 milliseconds
+[provar:run] For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+[provar:run] Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+[provar:run] System info: host: 'KLT-IN-RSINGH', ip: '10.131.68.63', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+[provar:run] Driver info: org.openqa.selenium.chrome.ChromeDriver
+[provar:run] Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Temp\runtime-Test-Provar\.provarCaches\.chromeProfiles\profile0}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.76, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+[provar:run] Session ID: 2dae73c670d060886a5f99f0837774dd
+[provar:run] *** Element info: {Using=xpath, value=//iframe[@title='CaseInteractionsReadAll' or contains(@src, 'apex/CaseInteractionsReadAll') or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall') or contains(@src, 'apex/CaseInteractionsReadAll')or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall')]}]
+[provar:run] Plugin Output SEVERE:   (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+[provar:run] Plugin Output SEVERE: Command duration or timeout: 21 milliseconds
+[provar:run] Plugin Output SEVERE: For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+[provar:run] Plugin Output SEVERE: Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+[provar:run] Plugin Output SEVERE: System info: host: 'KLT-IN-RSINGH', ip: '10.131.68.63', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+[provar:run] Plugin Output SEVERE: Driver info: org.openqa.selenium.chrome.ChromeDriver
+[provar:run] Plugin Output SEVERE: Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Temp\runtime-Test-Provar\.provarCaches\.chromeProfiles\profile0}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.76, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+[provar:run] Plugin Output SEVERE: Session ID: 2dae73c670d060886a5f99f0837774dd
+[provar:run] Plugin Output SEVERE: *** Element info: {Using=xpath, value=//iframe[@title='CaseInteractionsReadAll' or contains(@src, 'apex/CaseInteractionsReadAll') or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall') or contains(@src, 'apex/CaseInteractionsReadAll')or contains(translate(@src, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'apex/caseinteractionsreadall')]}
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+[provar:run] Plugin Output SEVERE:      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenOpenPageObject(SfUiHandler.java:680)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performScreenOpen(SfUiHandler.java:341)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:322)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:334)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:323)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:812)
+[provar:run] Plugin Output SEVERE:      at com.provar.plugins.forcedotcom.core.ui.UiWithScreen.execute(UiWithScreen.java:261)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+[provar:run] Plugin Output SEVERE:      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[provar:run] Plugin Output SEVERE:      at java.lang.reflect.Method.invoke(Method.java:498)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:621)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:598)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$8(LocalTestExecutionContainerRunner.java:544)
+[provar:run] Plugin Output SEVERE:      at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1124)
+[provar:run] Test Output OFF: Timed sleep successful.  Requested duration(seconds): 5, Actual duration(seconds): 5
+[provar:run] Test Output SEVERE: The On Screen has Navigate set to Embedded Frame, but there is no enclosing On Screen.
+[provar:run] Test Output SEVERE: The On Screen has Navigate set to Embedded Frame, but there is no enclosing On Screen.

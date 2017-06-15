@@ -1,0 +1,4 @@
+started, ended, path, name, successful, skipped, failed
+2017-06-09 13:01:14.708,2017-06-09 14:45:03.999,C:\Users\rahul.r.singh\Provar\SFTestsWorkspace\SFServicesTests\tests,,0,0,1
+2017-06-09 13:01:14.708,2017-06-09 14:45:02.741,C:\Users\rahul.r.singh\Provar\SFTestsWorkspace\SFServicesTests\tests\InteractionLog,,0,0,1
+2017-06-09 13:01:14.708,2017-06-09 14:45:02.741,C:\Users\rahul.r.singh\Provar\SFTestsWorkspace\SFServicesTests\tests\InteractionLog,CreateAndVerify.testcase,0,0,1

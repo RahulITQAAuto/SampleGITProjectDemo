@@ -1,0 +1,28 @@
+<project default="runtests" xmlns:provar="antlib:com.provar.testrunner.ant">
+                   <property environment="env"/>
+                   <property name="provar.home" value="C:\Program Files\Provar"/>
+                   <property name="testproject.home" value="C:\Users\rahul.r.singh\Provar\SFTestsWorkspace\SFServicesTests"/>
+                   <property name="testproject.results" value="C:\Users\rahul.r.singh\Provar\SFTestsWorkspace\SFServicesTests\templates\Results"/>
+        <target name="runtests">
+            <provar:compile
+			   provarHome="${provar.home}"
+			   projectPath="${testproject.home}"
+			   />
+            <provar:run  
+                   provarHome="${provar.home}"
+                   projectPath="${testproject.home}"
+                   resultsPath="${testproject.results}"
+                   testEnvironment="QA"
+                   webBrowserConfiguration="Full Screen"
+                   excludeCallableTestCases="True"
+                   salesforceMetadataCache="Reuse"
+                   projectCachePath="C:\Temp\runtime-Test-Provar\.provarCaches"
+                   >
+                   <pluginProperties plugin="sf" maxMemory="1024"/>
+                   <pluginProperties plugin="project" maxMemory="1024"/>
+                   <pluginProperties plugin="bundled" maxMemory="1024"/>
+                   <emailProperties sendEmail="true" primaryRecipients="rahul.r.singh@kronos.com"/>
+                   <fileset dir="${testproject.home}/tests/InteractionLog" includes="**/*.*"/>
+            </provar:run>
+        </target>
+</project>
